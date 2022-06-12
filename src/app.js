@@ -133,7 +133,7 @@ export const app = {
   },
   
   handleEvent: function() {
-    console.log(listCategory);
+    
     listCategory.onclick = function(e) {
       if(app.header.length >=2) {
         app.header.pop()
