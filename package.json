@@ -6,7 +6,8 @@
   },
   "scripts": {
     "start": "json-server --watch db.json",
-    "tailwind:watch": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
   },
   "name": "tiki_app",
   "version": "1.0.0",
